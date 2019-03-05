@@ -1,0 +1,47 @@
+
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>Welcome to MovieGeek</title>
+        <link rel="stylesheet" href="./movieGame.css"> 
+    </head>
+    <body>
+      <div id='backgroundcolor'><br>
+        <div id='movieGeekArea'><span id='movieGeektitle'>MovieGeek!</span></div>
+        <div id="step1">
+            <div id="gameInstructionsTitle">How to play this game?</div>
+            <div class="gameInstructions"> 1).Choose movies you want to be quizzed on</div>
+            <div class= "gameInstructions">2).Click Submit and answer the questions.</div>
+          <div id="movieList">
+          </div>
+          <div id= 'submitArea'><span id='submitBtn'>Submit</span></div>
+          <div id='noMovieSelected'></div>
+        </div>
+        <div id='step2'>
+          <div id='getReady'>Get Ready...Game starts in <span id='startCountDown'>5</span></div>
+          <div id='questionTimerArea'></div>
+          <div id='GameArea'>
+            <div id='questionArea'></div>
+            <div id='optionsArea'>
+              <div id='firstOptionRow'>
+                  <span id ='optionA'></span>
+                  <span id ='optionB'></span>
+               </div>
+               <div id='secondOptionRow'>
+                 <span id ='optionC'></span>
+                 <span id ='optionD'></span>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div id='step3'>
+          <div id='gameOverTitle'>Game Over!</div>
+          <div id="totalScoreArea">Your Score<div id='totalScore'></div></div>
+           <div id="playAgainArea">
+             <span id='playAgain'> Play Again!</span>
+            </div>
+        </div>
+      </div>
+      <script type = "text/javascript" src = "./movieGame.js"> </script>
+    </body>
+</html> 
