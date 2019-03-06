@@ -1,0 +1,513 @@
+
+body,html{
+    height:100%;
+    margin:0%;
+}
+#landingImg{
+  background-image: url('sunrise.jpg');
+  height:100%;
+  background-repeat: no-repeat;   
+  background-position:center;
+  background-size:cover;
+}
+
+#welcomeText{
+    padding-top: 150px;
+    display:block;
+    color:white;
+    font-size:150px;
+    font-weight: 1000;
+}
+
+#welcomeText2{
+    display:block;
+    color:white;
+    font-size:110px;
+    font-weight: 1000;
+}
+
+#aboutMeTitle{
+    text-align:center;
+    color:black;
+    font-size:100px;
+    font-family: 'Bad Script', cursive;
+    text-decoration: underline;
+    text-decoration-color:black;
+    
+}
+
+#profileImg{
+    height:20%x;
+    width:20%;
+    float:left;
+    margin-right:50px; 
+    margin-left:10px;
+}
+
+#profileImg2{
+    height:60%;
+    width:20%;
+    float:right;
+    margin-right:10px;
+}
+
+#aboutArea{
+    text-align: center;
+ 
+}
+
+#aboutMeText{
+    color:white;
+    background-color: teal;
+    border-style:solid;
+    padding:20px;
+    font-size:30px; 
+    font-family: 'Quicksand', sans-serif;
+    display:inline-block;
+    width:1000px;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#hobbiesTitle{
+    display:inline-block;
+    font-size:50px;
+    color:teal;
+    margin-top:100px;
+    padding:10px;
+    text-decoration:underline;
+    border-style:solid;
+    border-radius:10px;
+    border-color:teal;
+}
+
+.hobbyContainer{
+    background-color:teal;
+    border-style:solid;
+    border-width:4px;
+    border-radius:10px;
+    padding-top:50px;
+}
+
+.hobbyIconsPic{
+    margin-left:25px;
+    margin-right:25px;
+    margin-top:5px;
+    width:250px;
+    height:250px;
+    background-color: teal;
+}
+
+.hobby{
+    width:25%;
+    float:left;
+    margin:0px;
+    text-align:center;
+}
+.center{
+    text-align:center;
+}
+
+.whiteFont{
+    color:white;
+}
+
+.hobbyLink{
+    width:200px;
+}
+
+figcaption{
+    padding-top:20px;
+    color:white;
+    font-size:25px;
+}
+
+.hobby a{
+    text-decoration:none;
+}
+
+#programBackground{
+    margin:0%;
+    background-color: teal;
+    /*add horizontal line*/
+}
+
+.programmingTitle{
+    padding-top:50px;
+    padding-bottom:50px;
+    font-size:50px;
+    color:white;
+    font-family:'Courier New';
+    text-align:center;
+    font-weight: 500;
+}
+table, th, td {
+    border: 5px solid #F28500;
+    border-collapse: collapse;
+    border-radius: 10px;
+  }
+  th,td{
+      padding:20px;
+      color:white;
+  }
+  table{
+      border-spacing: 5px;
+      margin-left:200px;
+      margin-right:200px;
+  }
+
+  th{
+    padding:20px;
+    color:white;
+    font-size:40px;
+  }
+  td{
+    padding:20px;
+    color:white;
+    font-size:20px;
+    
+  }
+#languageTitle{
+    display:inline-block;
+    margin-top:20px;
+    margin-left:200px;
+    font-size: 20px;
+    color:white;
+    border-style:solid;
+    border-color:white;
+    border-radius:10px;
+    padding:10px;
+    border-width:5px;
+    background-color: #F28500;
+}
+
+#languages{
+    color:white;
+    letter-spacing:2px;
+    padding-left:10px;
+}
+
+#languageList{
+    display:inline-block;
+    margin-left:10px;
+}
+#languageList span{
+    border-style:solid;
+    border-radius:10px;
+    border-color:#F28500;
+    padding:20px;
+    color:white;
+    font-size:20px;
+    margin-right:10px;
+}
+
+#languageContainer{
+    margin-top:25px;
+}
+
+#secondHr{
+    margin:0px;
+    background-color:#F28500;
+    height:5px;
+}
+
+.prjLink{
+    padding-top:10px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:10px;
+    border-style:solid;
+    border-radius:15px;
+    border-color:white;
+    color:white;
+    font-size:25px;
+    text-decoration: none;
+}
+
+.prjLink:hover{
+    padding-top:10px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:10px;
+    border-style:solid;
+    border-radius:15px;
+    border-color:white;
+    background-color:white;
+    color:teal;
+    
+}
+
+#endspace{
+    text-align: center;
+    margin-top:100px;
+}
+
+#HobbyContainer{
+    display:flex;
+    justify-content: space-evenly; 
+}
+
+.HobbyArea{
+    background-color:teal;
+    border-style:solid;
+    border-color:teal;
+    border-width: 3px;
+    width:300px;
+    height:500px;
+}
+
+.HobbyTitle{
+    color:teal;
+    background-color:white;
+    border-style:solid;
+    border-color:teal;
+    border-width:3px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.HobbyText{
+    padding-top:20px;
+    color:gold;
+    font-size: 50px;
+    font-family:'Marck Script', 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+#freeTimeTitle{
+    margin-top:20px;
+    margin-bottom:30px;
+    font-family: 'Courgette', impact;
+    font-size:60px;
+    text-align: center;
+}
+
+td{
+    font-family: 'Quicksand', impact;
+    font-size:30px;
+    text-align: center;
+}
+#movieArea{
+    background-color:#008B8B;
+}
+#movieTitleText{
+    margin-top:20px;
+    display:inline-block;
+    font-family: 'Courgette', impact;
+    font-size:80px;
+    color:white;
+    background-color:#F28500;
+    border-style:solid;
+    border-color:#F28500;
+    border-radius: 10px;
+    padding:10px;
+}
+
+#movieTitleArea{
+    text-align: center;
+}
+
+#uselessTalent{
+    margin-top:10px;
+    color:yellow;
+    font-family: 'Quicksand', impact;
+    font-size:40px;
+    text-align: center;
+}
+
+#movieTalent{
+    margin-top:10px;
+    padding:10px;
+    color:white;
+    font-family: 'Quicksand', impact;
+    font-size:25px;
+    text-align: center;
+    width:700px;
+    border-style:solid;
+    border-color:yellow;
+}
+#movieTalentArea{
+    display:flex;
+    justify-content: center;
+}
+#gameTitle{
+    margin-top:20px;
+    text-align:center;
+    color:white;
+    font-size: 60px;
+    font-family: 'Quicksand', impact;
+}
+
+#gameDemoArea{
+    text-align: center;
+}
+
+#demo{
+    margin:0 auto;
+    display:block;
+    border: 5px solid yellow;
+    margin-bottom:100px;
+}
+
+#TravelArea{
+}
+#TravelTextArea{
+    text-align: center;
+}
+#TravelText{
+    font-family: 'Courgette', impact;
+    font-size:100px;
+    text-decoration: underline;
+}
+
+#TravelQuote{
+    margin-top:30px;
+    font-family: 'Quicksand', impact;
+    font-size: 60px;
+    border: 3px solid teal;
+    background-color:teal;
+    color:white;
+    display:inline-block;
+    padding:30px;   
+}
+
+#TravelQuoteArea{
+    text-align: center;
+}
+#placesTitle{
+    margin-top:40px;
+    font-family:'Courgette', impact;
+    font-size: 40px;
+    text-align: center;
+}
+#pictureContainers{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top:20px;
+}
+#burneyFallsPic{
+    width:20%;
+    height:30%;
+}
+
+#multinomahPic{
+    width:15%;
+    height:15%;
+}
+#spaceneedlePic{
+    width:15%;
+    height:15%;
+}
+
+#contactArea{
+    margin-top:40px;
+    padding-top:30px;
+    background-color:teal;
+}
+#contactTitle{
+    padding-top:40px;
+    text-align: center;
+    font-family:'Courgette', impact;
+    font-size: 60px;
+    color:white;
+}
+
+#contactMethods{
+    display: flex;
+   justify-content:center;
+   align-items: center;
+}
+#linkedIn{
+    border: 2px solid white;
+    font-family: 'Quicksand', impact;
+    border-radius: 4px;
+    padding:20px;
+    color:white;
+    font-size: 30px;
+}
+
+#facebook{
+    border: 2px solid white;
+    font-family: 'Quicksand', impact;
+    border-radius: 4px;
+    padding:20px;
+    color:white;
+    font-size: 30px;
+}
+#email{
+    border: 2px solid white;
+    font-family: 'Quicksand', impact;
+    border-radius: 4px;
+    padding:20px;
+    color:white;
+    font-size: 30px;
+}
+#reachMeHeader{
+    margin-top:80px;
+    text-align: center;
+    color:white;
+    font-family: 'Quicksand', impact;
+    font-size: 50px;
+    text-decoration: underline;
+}
+#linkedinPic{
+    width:300px;
+    height:300px;
+}
+#gmailPic{
+    width:250px;
+    height:200px;
+}
+#linkedinLink{
+    width:300px;
+    height:300px;
+    display:inline-block;
+}
+#mailLink{
+    width:250px;
+    height:200px;
+    display:inline-block;
+}
+#emailaddress{
+    background-color: white;
+    color:teal;
+    font-family: 'Quicksand', impact;
+    font-size: 25px;
+    font-weight: bold;
+
+}
