@@ -4,7 +4,7 @@ body,html{
     margin:0%;
 }
 #landingImg{
-  background-image: url('./photos/sunrise.jpg');
+  background-image: url('photos\sunrise.jpg');
   height:100%;
   background-repeat: no-repeat;   
   background-position:center;
