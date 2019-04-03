@@ -79,7 +79,12 @@ document.getElementById('submitBtn').onclick = () => {
     getSelectedMovies(); //this method adds the movies which user selected to movieToQuiz array
     if(moviesToQuiz.length == 0){
       document.getElementById('noMovieSelected').style.display = 'block';
-      document.getElementById('noMovieSelected').innerHTML = 'You must choose atleast 1 movie to play this game!'
+      document.getElementById('noMovieSelected').innerHTML = 'You must choose atleast 3 movie to play this game!'
+    }
+    else if(moviesToQuiz.length < 3){
+        console.log(moviesToQuiz.length);
+        document.getElementById('noMovieSelected').style.display = 'block';
+      document.getElementById('noMovieSelected').innerHTML = 'You must choose atleast 3 movie to play this game!'
     }
     else{
      document.getElementById('step1').style.display = 'none';
@@ -108,7 +113,11 @@ document.getElementById('submitBtn').onclick = () => {
 //add movies the user selected to be quized on to moviesToQuiz array
 function getSelectedMovies(){
     allMovies.forEach(movie =>{
-        if(movie.selected === true) moviesToQuiz.push(movie);
+        if(movie.selected === true)
+        {
+            //only add movie to the quizzing list if it is not already there
+            if(!moviesToQuiz.includes(movie))moviesToQuiz.push(movie);   
+        }
     })
 }
 
